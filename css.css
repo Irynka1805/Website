@@ -1,0 +1,64 @@
+html {
+	margin: 0 auto;
+	width: 1366px; 
+	height: 5793px;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+header {
+	background-image: url(images/banner-bg.png);
+	height: 670px;
+	background-repeat: repeat-x;
+	padding-top: 38px;
+}
+#header.container {
+	position: relative;
+}
+.logo {
+	width: 31px;
+	height: 25px;
+}
+
+ul#menu {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+ul#menu li {
+	display: inline;
+	margin-left: 30px;
+}
+ul#menu li a {
+	text-decoration: none;
+	color: #191919;
+	font: 12px 'Montserrat', sans-serif;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+ul#menu li a.active, ul#menu li a:hover {
+	color: #6fccdd;
+}
+
+footer {
+	background-image: url(images/footer-bg.png);
+	height: 284px;
+	color: white;
+	background-repeat:repeat-x;
+	padding: 100px 0;
+
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
