@@ -1,7 +1,8 @@
 html {
 	margin: 0 auto;
-	width: 1366px; 
-	height: 5793px;
+}
+* {
+	box-sizing: border-box;
 }
 @font-face {
 	font-family: 'Montserrat';
@@ -13,7 +14,7 @@ body {
 	background-color: #fff;
 }
 header {
-	background-image: url(images/banner-bg.png);
+	background-color:#e9e9e9;
 	height: 670px;
 	background-repeat: repeat-x;
 	padding-top: 38px;
