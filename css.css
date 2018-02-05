@@ -59,23 +59,37 @@ ul#menu li a.active, ul#menu li a:hover {
 }
 .banner {
 	position: absolute;
-	right: 20px;
+	right: 0;
 	top:200px;
-	width: 484px;
+	width: 496px;
+	padding-left: 11px;
+	margin-right: 20px;
 }
-.banner h1 {
+h1 {
+	margin: 0 0 25px 0; 
 	font: 38px/48px 'Montserrat',sans-serif;
 	font-weight: 600;
-	margin-right: 5px;
 }
-
-.banner p {
+p {
    font: 18px/28px 'Nunito', sans-serif;
    font-weight: 500;
-   color:#818181;
-   letter-spacing: 5;
+   color: #818181;
+   margin: 0;
+   padding-left: 6px;
 }
-
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a.button {
+	background-color: #6fccdd; 
+	font: 12px/84px 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding: 20px 45px;
+	margin-left: 6px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}	
 footer {
 	background-image: url(images/footer-bg.png);
 	height: 284px;
