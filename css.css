@@ -63,12 +63,14 @@ ul#menu li a.active, ul#menu li a:hover {
 	margin-right: 20px;
 }
 .about {
+	display: block;
 	margin: 0 auto;
 	text-align: center;
 	width: 630px;
 	padding-left: 5px;
 	padding-top: 85px;
 	padding-bottom: 100px;
+	position: relative;
 }
 
 h1 {
@@ -79,8 +81,22 @@ h1 {
 h3 {
 	font: 30px 'Montserrat',sans-serif;
 	font-weight: 600;
-	line-height: 58px;
 }
+.about h3 {
+	line-height: 60px;
+	margin: 0;
+}
+.skills h3 {
+	line-height: 84px;
+	margin: 0;
+}
+.skills {
+    padding-top: 130px;
+    padding-bottom: 164px;
+    margin: 0;
+    border: 0px;
+}
+
 p {
    font-family:'Nunito', sans-serif;
    color: #818181;
@@ -100,7 +116,7 @@ p {
 	text-indent: 1em;
 	letter-spacing: 0.05;
 	padding: 0 5px;
-	margin: 0 0 30px 0;
+	margin: 15px 0 30px 0;
 }
 a {
 	color: #fff;
@@ -129,10 +145,54 @@ footer {
 	position: relative;
 	padding: 0;
 }
+.background-skills {
+	position: absolute;
+	width: 100%
+	background-color:red;
 
+}
+#progress-line,#progress-line-second,#progress-line-third {
+	background: #d8d8d8;
+	height: 3px;
+	width: 500px;
+	padding: 0;
+	
+}
+#progress-line:after {
+    content: '';  
+    display: block;
+    background: #6fccdd;
+    width: 70%;
+    height: 100%;
+}
+#progress-line-second:after {
+	content: '';  
+    display: block;
+    background: #6fccdd;
+    width: 90%;
+    height: 100%;
+}
+#progress-line-third:after {
+	content: '';  
+    display: block;
+    background: #6fccdd;
+    width: 65%;
+    height: 100%;
+}
 
-    height:570px; width:50%; background-color: :#f8f9f9;margin: 0;
+ul.skills-list {
+	padding: 0;
+	margin: 0;
 }
-.col-lg-6 block2 {
-	height:570px; width:50%; background-color: :#e9e9e9;margin: 0;
+
+ul.skills-list li {
+	list-style-type: none;
+	margin-bottom: 8px;
 }
+ul.skills-list li span {
+	font: 12px/30px 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
