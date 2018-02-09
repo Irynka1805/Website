@@ -130,7 +130,7 @@ footer {
 	position: relative;
 }
 .skills-section {
-	height: 100vh;
+	height: 570px;
 	position: relative;
 }
 .box {
@@ -190,4 +190,39 @@ ul.skills-list li span {
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
 }
+.numbers {
+	background-color: #6fccdd;
+	padding-top: 100px;
+	padding-bottom: 100px;
+} 
+.col-lg-3 {
+	float: left;
+	width: 25%;
+	padding-top: 30px;
+}
+.icon {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.icon-box .icon-content {
+	margin-left: 72px;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+.icon-box .numbers-title {
+	font: 18px/30px 'Montserrat',sans-serif;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: .004em;
+}
+.icon-box .numbers-text {
+	font: 12px/30px 'Montserrat',sans-serif; 
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
 
